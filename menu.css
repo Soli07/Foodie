@@ -1,0 +1,109 @@
+
+.txt-heading{
+width: 100%;
+margin: 0;
+color: #ce2323;
+}
+h1
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #ce2323;
+ 
+}
+img{
+  width: 250px;
+  height: 260px;  
+}
+.shopping-cart{
+    width: 70%;
+    grid-row: 1/span 2;
+    margin: auto;
+    text-align: center;
+    
+}
+#product-grid
+{
+    width: 70%;
+    grid-row: 1/span 2;
+    margin: auto;
+    text-align: center;
+}
+p{
+    font-family: bebas neue;
+    font-size: 25px;
+    color:#ce2323;
+}
+ #quantity{
+    border-radius: 10px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgba(206,35,35);  
+
+}
+.btnAddAction{
+    width: 20%;
+    height: 35px;
+    font-size:14px;
+    background-color: #ce2323;
+    color: white;
+    text-align: center;
+    border-color: #ce2323;
+    border-style: solid;transition: 0.5s 0.2s;  
+    cursor: pointer;}
+
+.btnAddAction:hover{
+color: white;
+background-color: #ce2323;
+transition: 0.5s 0.2s;
+}
+.btnRemAction{
+    width: 50%;
+    height: 35px;
+    font-size:14px;
+    background-color: #ce2323;
+    color: white;
+    text-align: center;
+    border-color: #ce2323;
+    border-style: solid;transition: 0.5s 0.2s;  
+    cursor: pointer;}
+
+.btnRemAction:hover{
+color: white;
+background-color: #ce2323;
+transition: 0.5s 0.2s;
+}
+.btnCheAction{
+    width: 30%;
+    height: 45px;
+    font-size:large;
+    padding: 0px ;
+    background-color: #ce2323;
+    color: white;
+    text-align: center;
+   /* border-radius: 10px;*/
+
+    border-color: #ce2323;
+    border-style: solid;transition: 0.5s 0.2s;  
+    cursor: pointer;
+}
+
+.btnCheAction:hover{
+color: white;
+background-color: #ce2323;
+transition: 0.5s 0.2s;
+}
+form{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 15px;
+}
+table{
+    width: 100%;
+    text-align: left;
+
+}
